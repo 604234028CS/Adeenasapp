@@ -1,0 +1,72 @@
+<!--
+  Generated template for the MoviesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title text-center> Movies App </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="contact"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card color=dark>
+    <ion-card-header>
+      All About Movies
+    </ion-card-header>
+  </ion-card>
+
+  <ion-list>
+    <ion-item (click)=goToNow()>
+      <ion-thumbnail item-left>
+        <img src="assets/imgs/pic2.png">
+      </ion-thumbnail>
+      <h2>Now</h2>
+      <p>Now Playing</p>
+      <ion-icon item-right name="arrow-dropright-circle"></ion-icon>
+    </ion-item>
+
+    <ion-item color=light (click)=goTOUpcoming()>
+      <ion-thumbnail item-start>
+        <img src="assets/imgs/pic3.png">
+      </ion-thumbnail>
+      <h2>Upcoming</h2>
+      <p>Upcoming</p>
+
+      <ion-icon item-right name="arrow-dropright-circle"></ion-icon>
+
+    </ion-item>
+
+    <ion-item (click)=goToPopular()>
+      <ion-thumbnail item-left>
+        <img src="assets/imgs/pic4.jpg">
+      </ion-thumbnail>
+      <h2>Popular</h2>
+      <p>Popular</p>
+      <ion-icon item-right name="arrow-dropright-circle"></ion-icon>
+    </ion-item>
+
+    <ion-item color=light (click)=gotoTop()>
+      <ion-thumbnail item-start>
+        <img src="assets/imgs/pic5.png">
+      </ion-thumbnail>
+      <h2>Top</h2>
+      <p>Top Rated</p>
+      <ion-icon item-right name="arrow-dropright-circle"></ion-icon>
+    </ion-item>
+
+  </ion-list>
+
+
+
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "NingApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
