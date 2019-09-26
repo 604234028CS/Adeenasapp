@@ -1,5 +1,4 @@
-import { MoviedetailPage } from './../moviedetail/moviedetail';
-import { MoviesPage } from './../movies/movies';
+
 import { MoviesProvider } from './../../providers/movies/movies';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';

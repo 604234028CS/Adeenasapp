@@ -1,7 +1,4 @@
-import { TopPage } from './../top/top';
-import { PopularPage } from './../popular/popular';
-import { UpcomingPage } from './../upcoming/upcoming';
-import { NowPage } from './../now/now';
+
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
